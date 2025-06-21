@@ -1,0 +1,11 @@
+
+button{
+    box-shadow: 8px 11px 5px 8px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 8px 11px 5px 8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 8px 11px 5px 8px rgba(0,0,0,0.75);
+    
+}
+div{
+    text-align: center;
+    margin-top: 1rem;
+}
