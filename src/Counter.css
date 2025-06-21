@@ -1,10 +1,17 @@
-
-button{
-    box-shadow: 8px 11px 5px 8px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 8px 11px 5px 8px rgba(0,0,0,0.75);
-    -moz-box-shadow: 8px 11px 5px 8px rgba(0,0,0,0.75);
-    
+.counter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 32px;
 }
-div{
-    margin-top: 1rem;
+
+.button-row {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.counter-text {
+    font-size: 1.2rem;
+    margin-top: 8px;
 }
