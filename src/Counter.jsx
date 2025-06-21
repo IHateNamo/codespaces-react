@@ -4,7 +4,6 @@ export default function Counter(){
     const [count,setCount]=useState(0)
     return(<>
     <div>
-        <div>
         <center>
          <button onClick={() => setCount(count - 1)}>
             Click me for -
@@ -20,7 +19,7 @@ export default function Counter(){
             Click me to clear
         </button>
         </center>
-        </div>
+        
     </div>
         <center>
         <p>You clicked {count} time
