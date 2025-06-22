@@ -24,18 +24,14 @@ function Item({ name }) {
 }
 
 export default function Backpack() {
+    const items = ["Sungglasses", "PowerBank", "Towel ", "Shampoo", "wallet"];
     return (<>
 
         <div class="container" >
             <h1 className='Tittle'>Gooner.Bet  ♣️ </h1>
-        </div>
-        <div class="container" >
+        
             <ul>
-                <Item name="Laptop" />
-                <Item name="Notebook" />
-                <Item name="Pen" />
-                <Item name="Water Bottle" />
-                <Item name="Snacks" />
+                {items.map(i=><Item name={i}/>)}
             </ul>
         </div>
 
