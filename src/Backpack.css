@@ -1,0 +1,23 @@
+body{
+   background-color: antiquewhite;
+}
+h1:hover{
+    color: aquamarine;
+    background-color: black;
+    font-size: 50px;
+    background: #df8813;
+    background: linear-gradient(90deg,#df8813 0%, #ff4798 40%, #cd8b8b 80%);
+    background: -webkit-linear-gradient(90deg,#df8813 0%, #ff4798 40%, #cd8b8b 80%);
+    background: -moz-linear-gradient(90deg,#df8813 0%, #ff4798 40%, #cd8b8b 80%);
+}
+h1{
+    color: rgb(175, 143, 143);
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

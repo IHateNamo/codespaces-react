@@ -5,11 +5,13 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Hello  from './Hello';
 import Counter from './Counter';
+import Backpack from './Backpack';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Counter></Counter>
+    <Backpack />
+    {/*<Counter></Counter>/*}
     {/*<Hello name="Changli" surname = "Gooner" />*/}
     {/*<App /> */}
   </React.StrictMode>
